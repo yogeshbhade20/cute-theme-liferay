@@ -1,0 +1,38 @@
+@import '../colors';
+
+body.eclipse{
+    a.btn-orange{
+        background-color: $cute-eclipse-yellow;
+    }
+
+    header{
+        background-color: $cute-eclipse-red;
+
+        .user-avatar-link .lexicon-icon{
+            color: $cute-eclipse-red;
+        }
+
+        li.nav-item{
+            ul.child-menu{
+                background-color: $cute-eclipse-red;;
+            }
+
+            &:hover ul.child-menu{
+                background-color: $cute-eclipse-red;
+            }
+
+            &.selected{
+                &a.nav-link{
+                    color: $cute-eclipse-red;
+                    &:hover{
+                        color: $cute-eclipse-red;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer{
+        background-color: $cute-eclipse-red;
+    }
+}
